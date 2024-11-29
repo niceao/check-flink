@@ -22,7 +22,7 @@ if os.getenv("LIJIANGAPI_TOKEN") is None:
 else:
     print("在服务器上运行，从环境变量中获取API Key")
 
-api_key = os.getenv("NLLnke6U23qAli70KPwxyKmeMD")
+api_key = os.getenv("LIJIANGAPI_TOKEN")
 api_url_template = "https://api.nsmao.net/api/web/query?key={}&url={}"
 
 # 代理链接的模板，代理是通过在代理地址后加目标 URL 来请求，代理地址确保以 / 结尾
